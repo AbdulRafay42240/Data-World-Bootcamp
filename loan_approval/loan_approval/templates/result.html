@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancel Request</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('static/logo.jpg'); /* Replace 'background-image.jpg' with your image file */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 50px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: lime;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .button:hover {
+            background-color: #32CD32; /* Darker shade of lime */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Loan Request Has {{result}}</h1>
+        <a href="" class="button">Back Home</a>
+    </div>
+</body>
+</html>
